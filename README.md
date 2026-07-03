@@ -13,4 +13,5 @@ The main objective of this project was to analyze patient records and build a ma
 
 ## Contents
 - `stroke-prediction-notebook.ipynb`: Jupyter notebook containing data preprocessing, exploratory data analysis (EDA), model training, and evaluation.
-- `Certificate.png`: Certificate of completion for the ApplAI ASU Summer Training.
+## Certificate of Completion
+![Certificate of Completion](Certificate.png)
