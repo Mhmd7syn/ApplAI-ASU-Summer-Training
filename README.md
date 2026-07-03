@@ -6,9 +6,17 @@ This repository contains the work completed during my **AI Summer Trainee** inte
 
 The main objective of this project was to analyze patient records and build a machine learning model capable of predicting the likelihood of stroke based on various health factors. 
 
+### Technical Details & Workflow:
+- **Data Preprocessing**: Handled missing values, applied label encoding for categorical data, and utilized Z-Score Normalization for numerical features.
+- **Outlier Handling**: Limited extreme outliers (values > 3 std dev) for `avg_glucose_level` and `bmi` using the cap-and-floor method.
+- **Feature Selection**: Computed a correlation matrix and removed low-correlation variables to improve model performance.
+- **Class Balancing**: Addressed target variable imbalance utilizing **SMOTE** oversampling.
+- **Modeling**: Trained and evaluated SVM, KNN, Decision Tree, and Random Forest classifiers using `GridSearchCV` for hyperparameter tuning.
+- **Evaluation**: Focused on maximizing recall using the **KNN model** to ensure high sensitivity for stroke detection, achieving an overall **85.7% accuracy**.
+
 ### Key Achievements:
-- Built a Stroke Prediction ML model using **Python** & **Scikit-learn**, achieving **85.7% accuracy**.
-- Conducted Exploratory Data Analysis (EDA) on **5,000+ patient records** to identify key stroke risk factors.
+- Built a robust Stroke Prediction ML pipeline using **Python**, **Pandas**, and **Scikit-learn**, achieving **85.7% accuracy**.
+- Conducted in-depth EDA and feature engineering on **5,000+ patient records** to identify key stroke risk factors.
 - Collaborated in a **4-member team** under faculty mentorship to deliver project milestones on time.
 
 ## Contents
