@@ -15,9 +15,9 @@ The main objective of this project was to analyze patient records and build a ma
 - **Evaluation**: Focused on maximizing recall using the **KNN model** to ensure high sensitivity for stroke detection, achieving an overall **85.7% accuracy**.
 
 ### Key Achievements:
-- Built a robust Stroke Prediction ML pipeline using **Python**, **Pandas**, and **Scikit-learn**, achieving **85.7% accuracy**.
-- Conducted in-depth EDA and feature engineering on **5,000+ patient records** to identify key stroke risk factors.
-- Collaborated in a **4-member team** under faculty mentorship to deliver project milestones on time.
+- Built a Stroke Prediction ML pipeline (SVM, KNN, Random Forest) with **85.7% accuracy** using Python & Scikit-learn.
+- Applied Z-score normalization, outlier capping, and **SMOTE** balancing on **5,000+ patient records**.
+- Tuned models via **GridSearchCV** in a 4-member team, prioritizing recall for medical sensitivity.
 
 ## Contents
 - `stroke-prediction-notebook.ipynb`: Jupyter notebook containing data preprocessing, exploratory data analysis (EDA), model training, and evaluation.
